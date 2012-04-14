@@ -1,0 +1,134 @@
+body {
+	font: 16px/1.5 "Trebuchet MS", "Geneva CE", lucida, sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 150%;
+	color: #3484D2;
+}
+
+
+#ajax-spinner {
+	margin: 15px 0 0 15px;
+	padding: 13px;
+	background: white url('/pics/spinner.gif') no-repeat 50% 50%;
+	font-size: 0;
+	z-index: 123456;
+	display: none;
+}
+
+div.flash {
+	color: black;
+	background: #FFF9D7;
+	border: 1px solid #E2C822;
+	padding: 1em;
+	margin: 1em 0;
+}
+
+pre {
+	font-size: 10px;
+	background-color: #f3f3f3;
+	border: 1px dotted #999;
+}
+
+a[href^="error:"] {
+	background: red;
+	color: white;
+}
+
+.male td {
+	background-color: #eeeeff !important;
+}
+
+.female td {
+	background-color: #ffeeee !important;
+}
+
+	html {
+		font: 16px/1.5 sans-serif;
+		border-top: 8.7em solid #DEFA70;
+	}
+
+	body {
+		font: inherit;
+		border-top: 5px solid #E4DED5;
+		margin: 0;
+		background: white;
+		color: #333;
+	}
+
+	#wrapper {
+		max-width: 700px;
+		margin: -8.7em auto 0;
+	}
+	
+	#logo {
+	    border: 1px dashed;
+		position: absolute;
+		width: 150px;
+		height: 8.7em;
+		top: 0;
+		right: 3em;
+		
+	}
+
+	h1 {
+		font-size: 47px;
+		color: #3484D2;
+		margin: .4em 0 -.3em;
+		text-shadow: 1px 1px 0 white;
+	}
+
+	h2 a {
+		font-size: 18px;
+		color: #7A7772;
+		margin: .6em 0;
+		text-shadow: 1px 1px 0 white;
+		text-decoration: none;
+	}
+	
+	h2 a:hover {
+		text-decoration: underline;
+	}
+
+	h3 {
+		font-size: 16px;
+		color: #3484D2;
+	}
+
+	ol {
+		margin: 0;
+		padding: 0;
+	}
+
+	ol li {
+		margin: 1em 0;
+	}
+
+	ol li p {
+		font-size: 90%;
+	}
+
+	code {
+		color: #666;
+	}
+
+	hr {
+		visibility: hidden;
+		height: 2em;
+	}
+
+	img {
+		border: none;
+	}
+
+	#environment {
+		font-size: 70%;
+		margin: 3em 0;
+		padding: 1em 0;
+		border-top: 1px solid #EEE;
+		list-style: none;
+		color: gray;
+	}
