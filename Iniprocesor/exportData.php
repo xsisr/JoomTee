@@ -85,7 +85,7 @@ echo "Generované soubory<br>";
 	    </ul>
     	</form>
 	<? endif; ?>
-    <a href="../">Zpět na hlavní stránku</a>
+    
 
 	<pre>
 	  Systém používá <a href="http://www.nette.org">Nette Framework</a> a jeho add-on <a href="https://github.com/knyttl/Tabella">Tabella</a>
