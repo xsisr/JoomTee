@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+	<meta name="description" content="Tabella addon example site">
+	<meta name="robots" content="{$robots}" n:ifset="$robots">
+
+	<title>JoomTee based on Tabella and Nette</title>
+
+	<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/screen.css" type="text/css">
+	<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/maite.tabella.css" type="text/css">
+	<link rel="stylesheet" media="screen,projection,tv" href="{$basePath}/css/jquery.datepicker.css" type="text/css">
+	<link rel="stylesheet" media="print" href="{$basePath}/css/print.css" type="text/css">
+	<link rel="shortcut icon" href="{$basePath}/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="wrapper">
+	
+
+	<h1>JoomTee</h1>
+
+	<h2>
+		<a href="{$basePath}/Iniprocesor/addLang.php">-Přidat jazyk</a>
+		<a href="{$basePath}/Iniprocesor/importData.php">-Importovat</a>
+		<a href="{$basePath}/Iniprocesor/exportData.php">-Exportovat</a>
+		<a href="{$basePath}/Iniprocesor/notTranslated.php">-Nepřeložené</a>
+	  <a href="{link this editable}">-Editor</a>
+   	
+	</h2>
+
+	<hr />
+
+	<h2>{$name|capitalize}</h2>
+
+	{control $tabellaName}
+
+	<pre>
+	  Systém používá <a href="http://www.nette.org">Nette Framework</a> a jeho add-on <a href="https://github.com/knyttl/Tabella">Tabella</a>
+	</pre>
+	
+  </div>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="{$basePath}/js/jquery.datepicker.js"></script>
+  <script type="text/javascript" src="{$basePath}/js/maite.tabella.js"></script>
+<!--  <script type="text/javascript">
+   
+ var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-16651601-4']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+ 
+  </script>-->
+</body>
+</html>

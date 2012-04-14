@@ -1,0 +1,28 @@
+#
+# SECURITY WARNING: it is CRITICAL that this file & directory are NOT accessible directly via a web browser!
+# http://nette.org/security-warning
+#
+common:
+	php:
+		date.timezone: Europe/Prague
+
+	parameters:
+		tempDir: "%appDir%/../tmp"
+		logDir: "%appDir%/../log"
+	
+	services:
+		robotLoader:
+			run: true
+
+	database:
+		driver: mysql
+		host: localhost
+		username: root
+		password: 
+		database: JoomTee
+		charset: UTF8
+		profiler: true
+
+production < common:
+
+development < common:
